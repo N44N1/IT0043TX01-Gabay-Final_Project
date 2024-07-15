@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: burlywood;
+    color: white;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+.main-con{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.about{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    width: 50vh;
+    background-color: rgb(43, 43, 43);
+}
+
+#name{
+    padding: 10px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+#aboutcon{
+    padding: 5px;
+    color: antiquewhite;
+}
+
+.services{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    margin-top: 10px;
+}
+
+.contact-social{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+.faq-section{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    padding: 20px;
+}
+
+p{
+    text-align: center;
+    color: brown;
+    font-size: large;
+}
+
+#serv{
+    font-weight: 700;
+    font-size: larger;
+}
+
+h1{
+    color: brown;
+}
+
+#pfp{
+    border-radius: 50%;
+    align-self: start;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px gray solid;
+    box-shadow: 5px 5px 10px black;
+}
+
+.link1{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.link2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#number{
+    color: black;
+}
+
+#fb{
+    width: 3%;
+}
+
+#twt{
+    width: 3%;
+}
+
+.workpic{
+    display: flex;   
+    flex-wrap: wrap;
+    flex-direction: row;   
+    gap: 5px;
+}
+
+#progpic{
+    width: 45%;
+}
+
+#betapic{
+    width: 45%;
+}
+
+.faq{
+    background-color: brown;
+    color: antiquewhite;
+    text-shadow: 5px 5px 10px black;
+}
+
+#favchar{
+    width: 90%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ans{
+    font-weight: 600;
+}
